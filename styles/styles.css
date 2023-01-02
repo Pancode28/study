@@ -1,0 +1,147 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,900&display=swap');
+.social__header a {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+    text-decoration: none;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+header{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.header__logo{
+  display: block;
+  background-image: url(../img/logo_pancode.png);
+  width: 206px;
+  height: 54px;
+  
+}
+
+body{
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  
+
+}
+
+.header__list{
+  display: flex;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.social__list{
+  display: flex;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+
+.header__item{
+  font-style: none;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 20px;
+
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 15px;
+  
+  
+ 
+
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  
+  
+  
+}
+
+
+
+.main__title{
+  font-family: Roboto flex;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 27px;
+  padding-top: 180px;
+  color: #302F2F;
+
+
+  
+
+
+
+}
+
+
+.main__li{
+  font-size: 17px;
+  font-family: Roboto;
+  list-style-type: none;
+  font-weight: 100;
+  text-transform: none;
+  padding: 0;
+  margin-bottom: 20px;
+
+}
+
+.btn{
+  padding:30px 55px 30px 55px;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(#E62F72 , #C816AF);
+  color: #fff;
+  font-weight: 700;
+}
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
